@@ -1,0 +1,120 @@
+<CityWeatherResponse>
+    <status>success</status>
+    <date>2013-07-18</date>
+    <results>
+        <currentCity>北京市</currentCity>
+        <weather_data>
+            <date>周三(今天, 实时：24℃)</date>
+            <dayPictureUrl>
+                http://api.map.baidu.com/images/weather/day/duoyun.png
+            </dayPictureUrl>
+            <nightPictureUrl>
+                http://api.map.baidu.com/images/weather/night/duoyun.png
+            </nightPictureUrl>
+            <weather>多云</weather>
+            <wind>微风</wind>
+            <temperature>23℃~ 15℃</temperature>
+            <date>周四</date>
+            <dayPictureUrl>
+                http://api.map.baidu.com/images/weather/day/leizhenyu.png
+            </dayPictureUrl>
+            <nightPictureUrl>
+                http://api.map.baidu.com/images/weather/night/zhongyu.png
+            </nightPictureUrl>
+            <weather>雷阵雨转中雨</weather>
+            <wind>微风</wind>
+            <temperature>29～22℃</temperature>
+            <date>周五</date>
+            <dayPictureUrl>
+                http://api.map.baidu.com/images/weather/day/yin.png
+            </dayPictureUrl>
+            <nightPictureUrl>
+                http://api.map.baidu.com/images/weather/night/duoyun.png
+            </nightPictureUrl>
+            <weather>阴转多云</weather>
+            <wind>微风</wind>
+            <temperature>31～23℃</temperature>
+            <date>周六</date>
+            <dayPictureUrl>
+                http://api.map.baidu.com/images/weather/day/duoyun.png
+            </dayPictureUrl>
+            <nightPictureUrl>
+                http://api.map.baidu.com/images/weather/night/duoyun.png
+            </nightPictureUrl>
+            <weather>多云</weather>
+            <wind>微风</wind>
+            <temperature>31～24℃</temperature>
+        </weather_data>
+        <currentCity>合肥市</currentCity>
+        <weather_data>
+            <date>周三</date>
+            <dayPictureUrl>
+                http://api.map.baidu.com/images/weather/day/duoyun.png
+            </dayPictureUrl>
+            <nightPictureUrl>
+                http://api.map.baidu.com/images/weather/night/duoyun.png
+            </nightPictureUrl>
+            <weather>多云</weather>
+            <wind>东风3-4级</wind>
+            <temperature>27℃</temperature>
+            <date>周四</date>
+            <dayPictureUrl>
+                http://api.map.baidu.com/images/weather/day/duoyun.png
+            </dayPictureUrl>
+            <nightPictureUrl>
+                http://api.map.baidu.com/images/weather/night/duoyun.png
+            </nightPictureUrl>
+            <weather>多云</weather>
+            <wind>东北风3-4级</wind>
+            <temperature>35～27℃</temperature>
+            <date>周五</date>
+            <dayPictureUrl>
+                http://api.map.baidu.com/images/weather/day/duoyun.png
+            </dayPictureUrl>
+            <nightPictureUrl>
+                http://api.map.baidu.com/images/weather/night/duoyun.png
+            </nightPictureUrl>
+            <weather>多云</weather>
+            <wind>南风</wind>
+            <temperature>35～27℃</temperature>
+            <date>周六</date>
+            <dayPictureUrl>
+                http://api.map.baidu.com/images/weather/day/duoyun.png
+            </dayPictureUrl>
+            <nightPictureUrl>
+                http://api.map.baidu.com/images/weather/night/duoyun.png
+            </nightPictureUrl>
+            <weather>多云</weather>
+            <wind>东风</wind>
+            <temperature>34～27℃</temperature>
+        </weather_data>
+    </results>
+</CityWeatherResponse>
+<weather>阵雨</weather>
+<wind>东北风3-4级</wind>
+<temperature>18℃</temperature>
+<index>
+    <title>穿衣</title>
+    <zs>舒适</zs>
+    <tipt>穿衣指数</tipt>
+    <des>建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。</des>
+    <title>洗车</title>
+    <zs>不宜</zs>
+    <tipt>洗车指数</tipt>
+    <des>不宜洗车，未来24小时内有雨，如果在此期间洗车，雨水和路上的泥水可能会再次弄脏您的爱车。</des>
+    <title>感冒</title>
+    <zs>较易发</zs>
+    <tipt>感冒指数</tipt>
+    <des>相对今天出现了较大幅度降温，较易发生感冒，体质较弱的朋友请注意适当防护。</des>
+    <title>运动</title>
+    <zs>较不宜</zs>
+    <tipt>运动指数</tipt>
+    <des>有降水，推荐您在室内进行健身休闲运动；若坚持户外运动，须注意携带雨具并注意避雨防滑。</des>
+    <title>紫外线强度</title>
+    <zs>弱</zs>
+    <tipt>紫外线强度指数</tipt>
+    <des>紫外线强度较弱，建议出门前涂擦SPF在12-15之间、PA+的防晒护肤品。</des>
+</index>
+<pm25>166</pm25>
+</results>
+</CityWeatherResponse>
