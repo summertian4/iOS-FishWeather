@@ -62,5 +62,12 @@
  *  @return 图标名称
  */
 + (NSString *)imgName:(NSString *)weather;
-
+/**
+ *  根据天气对象获取背景图片名称
+ *
+ *  @param weather 天气对象
+ *
+ *  @return 背景图片名称
+ */
++ (NSString *)backgroudName:(CFWeather *)weather;
 @end

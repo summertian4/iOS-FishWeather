@@ -34,6 +34,22 @@
     return [weather.days[0] weather];
 }
 
++ (NSString *)backgroudName:(CFWeather *)weather {
+    NSString *weatherName = [self bigWeather:weather];
+    weatherName = [weatherName componentsSeparatedByString:@"转"][0];
+    if ([weatherName containsString:@"晴"]) {
+        return @"qingtian";
+    } else if ([weatherName containsString:@"阴"]) {
+        return @"yintian";
+    } else if ([weatherName containsString:@"雪"]) {
+        return @"xuetian";
+    } else if ([weatherName containsString:@"雨"]) {
+        return @"yutian";
+    }
+    return @"qingtian";
+}
+
+
 + (NSString *)bigWeekDate:(CFWeather *)weather {
     return [[weather.days[0] weekDate] substringToIndex:2];
 }

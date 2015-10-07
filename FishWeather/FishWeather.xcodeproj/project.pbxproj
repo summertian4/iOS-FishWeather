@@ -21,6 +21,8 @@
 		8274E57F1BB5395F00538631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8274E57D1BB5395F00538631 /* LaunchScreen.storyboard */; };
 		8274E58A1BB5395F00538631 /* FishWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8274E5891BB5395F00538631 /* FishWeatherTests.m */; };
 		8274E5951BB5395F00538631 /* FishWeatherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8274E5941BB5395F00538631 /* FishWeatherUITests.m */; };
+		82D37F801BC4C81000A53890 /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D37F7F1BC4C81000A53890 /* AddressViewController.m */; settings = {ASSET_TAGS = (); }; };
+		82D37F821BC4C90800A53890 /* address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82D37F811BC4C90800A53890 /* address.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,9 @@
 		8274E5901BB5395F00538631 /* FishWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8274E5941BB5395F00538631 /* FishWeatherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishWeatherUITests.m; sourceTree = "<group>"; };
 		8274E5961BB5395F00538631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D37F7E1BC4C81000A53890 /* AddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressViewController.h; sourceTree = "<group>"; };
+		82D37F7F1BC4C81000A53890 /* AddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressViewController.m; sourceTree = "<group>"; };
+		82D37F811BC4C90800A53890 /* address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = address.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +154,7 @@
 		8274E56F1BB5395F00538631 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				82D37F811BC4C90800A53890 /* address.plist */,
 				8246D94D1BBA5FAD00392555 /* test.xml */,
 				8274E57B1BB5395F00538631 /* Assets.xcassets */,
 				8274E5801BB5395F00538631 /* Info.plist */,
@@ -199,6 +205,8 @@
 			children = (
 				8274E5751BB5395F00538631 /* ViewController.h */,
 				8274E5761BB5395F00538631 /* ViewController.m */,
+				82D37F7E1BC4C81000A53890 /* AddressViewController.h */,
+				82D37F7F1BC4C81000A53890 /* AddressViewController.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -318,6 +326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82D37F821BC4C90800A53890 /* address.plist in Resources */,
 				8274E57F1BB5395F00538631 /* LaunchScreen.storyboard in Resources */,
 				8246D94E1BBA5FAD00392555 /* test.xml in Resources */,
 				8274E57C1BB5395F00538631 /* Assets.xcassets in Resources */,
@@ -352,6 +361,7 @@
 				8246D9591BBA66D700392555 /* CFWeather.m in Sources */,
 				8246D95C1BBA67B900392555 /* CFDay.m in Sources */,
 				8274E5711BB5395F00538631 /* main.m in Sources */,
+				82D37F801BC4C81000A53890 /* AddressViewController.m in Sources */,
 				8246D9601BBA7AD300392555 /* CFWeatherStringUtil.m in Sources */,
 				8246D9561BBA66C200392555 /* CFWeatherAchieve.m in Sources */,
 			);

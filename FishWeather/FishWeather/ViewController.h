@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
+/**
+ *  设置界面上所有的数据
+ *
+ *  @param cityName 当前城市名称
+ */
+- (void) settingData:(NSString *)cityName;
 @end
 
