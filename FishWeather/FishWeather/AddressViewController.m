@@ -123,6 +123,7 @@ typedef enum {
         UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
         ViewController *weatherViewController = [story instantiateViewControllerWithIdentifier:@"weatherViewController"];
         [self presentViewController:weatherViewController animated:YES completion:nil];
+        weatherViewController.cityName = self.selectedCity;
         [weatherViewController settingData:self.selectedCity];
     }
     

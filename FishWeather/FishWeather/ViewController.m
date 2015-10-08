@@ -63,12 +63,25 @@
 // 天气图片数组
 @property (nonatomic, strong) NSMutableArray *imgWeatherArray;
 
+// 刷新按钮
+@property (weak, nonatomic) IBOutlet UIButton *btRefresh;
+// 1表示正在刷新，0表示不在刷新
+@property (nonatomic, assign) BOOL isRefreshing;
+
+
 /**
  *  选择城市按钮点击事件
  *
  *  @param sender 被点击的按钮
  */
 - (IBAction)chooseCity:(UIButton *)sender;
+/**
+ *  刷新按钮点击事件
+ *
+ *  @param sender 被点击的按钮
+ */
+- (IBAction)refreshData:(UIButton *)sender;
+
 
 @end
 
@@ -78,7 +91,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self packView];
-    [self settingData:@"上海市"];
+    self.cityName = @"上海市";
+    [self settingData:self.cityName];
+    self.isRefreshing = NO;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -155,6 +170,45 @@
     UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:addressViewController];
     [self presentViewController:navController animated:YES completion:nil];
 
+}
+
+/**
+ *  刷新按钮点击事件
+ *
+ *  @param sender 被点击的按钮
+ */
+- (IBAction)refreshData:(UIButton *)sender {
+    // 设置标志为正在刷新
+    self.isRefreshing = YES;
+    
+    // 开启一个线程去获取数据
+    NSThread *thread = [[NSThread alloc] initWithTarget:self selector:@selector(gettingData) object:nil];
+    [thread start];
+    
+    // 让loading图片开始旋转
+    [self rotate];
+    
+}
+
+/**
+ *  时针分针旋转
+ */
+- (void)rotate {
+    [UIView animateWithDuration:0.1 animations:^{
+        self.btRefresh.imageView.transform = CGAffineTransformRotate(self.btRefresh.imageView.transform, M_PI / 10);
+    } completion:^(BOOL finished) {
+        if (self.isRefreshing) {
+            [self rotate];
+        }
+    }];
+}
+
+/**
+ *  重新获取数据
+ */
+- (void)gettingData {
+    [self settingData:self.cityName];
+    self.isRefreshing = NO;
 }
 
 @end

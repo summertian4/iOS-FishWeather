@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (nonatomic, copy) NSString *cityName;
 /**
  *  设置界面上所有的数据
  *

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -19,15 +19,18 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qingtian" translatesAutoresizingMaskIntoConstraints="NO" id="k47-z4-EAH" userLabel="背景">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="城市名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCZ-fV-cAg">
                                 <rect key="frame" x="274" y="40" width="51" height="20.5"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99°C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXq-V3-agn" userLabel="温度">
                                 <rect key="frame" x="240" y="160" width="120" height="50"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="IuY-mR-LBA"/>
                                     <constraint firstAttribute="width" constant="120" id="Ntg-iN-0id"/>
@@ -38,12 +41,14 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="|" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YTs-1r-Ai7">
                                 <rect key="frame" x="297" y="230" width="5.5" height="20.5"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="阴" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKg-1D-azy" userLabel="天气">
                                 <rect key="frame" x="192" y="231" width="100" height="20"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="Mkm-gL-nRr"/>
                                     <constraint firstAttribute="height" constant="20" id="vq2-tK-gbl"/>
@@ -54,6 +59,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="周几" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Cl-4p-kLc" userLabel="周几">
                                 <rect key="frame" x="307" y="231" width="100" height="20"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="GKE-db-vT6"/>
                                     <constraint firstAttribute="width" constant="100" id="HZC-Je-GfN"/>
@@ -67,18 +73,21 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21°C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J5g-ri-fGh" userLabel="最低温">
                                         <rect key="frame" x="57" y="68" width="35.5" height="18"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.14796401519999999" green="0.14796401519999999" blue="0.14796401519999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28°C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ipm-TR-89w" userLabel="最高温">
                                         <rect key="frame" x="57" y="20" width="35.5" height="18"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.14796401515151514" green="0.14796401515151514" blue="0.14796401515151514" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qing" translatesAutoresizingMaskIntoConstraints="NO" id="Jrf-BN-abn" userLabel="天气图标">
                                         <rect key="frame" x="55" y="140" width="40" height="40"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="6Ry-g4-akF"/>
                                             <constraint firstAttribute="width" constant="40" id="7sD-P1-WnA"/>
@@ -86,11 +95,13 @@
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今天" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jvb-zi-zFF" userLabel="周几">
                                         <rect key="frame" x="60" y="114" width="30" height="18"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.14796401519999999" green="0.14796401519999999" blue="0.14796401519999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="J5g-ri-fGh" firstAttribute="trailing" secondItem="Ipm-TR-89w" secondAttribute="trailing" id="CkR-3Q-3RX"/>
@@ -110,30 +121,35 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="明天" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHS-bu-33k" userLabel="周几">
                                         <rect key="frame" x="60" y="114" width="30" height="18"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.14796401519999999" green="0.14796401519999999" blue="0.14796401519999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21°C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pq0-8I-EKO" userLabel="最低温">
                                         <rect key="frame" x="57" y="70" width="35.5" height="18"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.3074692235" green="0.3074692235" blue="0.3074692235" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28°C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dwc-iN-Bwn" userLabel="最高温">
                                         <rect key="frame" x="57" y="22" width="35.5" height="18"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.25467566287878785" green="0.25467566287878785" blue="0.25467566287878785" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qing" translatesAutoresizingMaskIntoConstraints="NO" id="69u-qr-Obm" userLabel="天气图标">
                                         <rect key="frame" x="55" y="140" width="40" height="40"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="40" id="Uuh-fG-TQQ"/>
                                             <constraint firstAttribute="height" constant="40" id="jrl-oG-s3P"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
+                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="69u-qr-Obm" firstAttribute="centerX" secondItem="uBs-IT-c11" secondAttribute="centerX" id="4CJ-lh-dbA"/>
@@ -152,30 +168,35 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昨天" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaW-8i-wo7" userLabel="周几">
                                         <rect key="frame" x="60" y="114" width="30" height="18"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.3074692235" green="0.3074692235" blue="0.3074692235" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21°C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZgX-QK-0T0" userLabel="最低温">
                                         <rect key="frame" x="57" y="70" width="35.5" height="18"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.25467566289999999" green="0.25467566289999999" blue="0.25467566289999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28°C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WLM-5J-u0w" userLabel="最高温">
                                         <rect key="frame" x="57" y="22" width="35.5" height="18"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.30746922348484851" green="0.30746922348484851" blue="0.30746922348484851" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qing" translatesAutoresizingMaskIntoConstraints="NO" id="XiC-mV-Afa" userLabel="天气图标">
                                         <rect key="frame" x="55" y="140" width="40" height="40"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Am4-ci-lti"/>
                                             <constraint firstAttribute="width" constant="40" id="ZLJ-7f-qd5"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
+                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="XiC-mV-Afa" firstAttribute="top" secondItem="oaW-8i-wo7" secondAttribute="bottom" constant="8" id="68L-y2-ikj"/>
@@ -196,30 +217,35 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昨天" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgy-9R-Ori" userLabel="周几">
                                         <rect key="frame" x="60" y="114" width="30" height="18"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.4724984217" green="0.4724984217" blue="0.4724984217" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21°C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBz-e9-9n9" userLabel="最低温">
-                                        <rect key="frame" x="57.5" y="70" width="35.5" height="18"/>
+                                        <rect key="frame" x="57" y="70" width="35.5" height="18"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.4724984217" green="0.4724984217" blue="0.4724984217" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28°C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sfl-gz-gTI" userLabel="最高温">
-                                        <rect key="frame" x="57.5" y="22" width="35.5" height="18"/>
+                                        <rect key="frame" x="57" y="22" width="35.5" height="18"/>
+                                        <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.47249842171717171" green="0.47249842171717171" blue="0.47249842171717171" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qing" translatesAutoresizingMaskIntoConstraints="NO" id="GFJ-rM-Lq0" userLabel="天气图标">
                                         <rect key="frame" x="55" y="140" width="40" height="40"/>
+                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Nxf-ry-qie"/>
                                             <constraint firstAttribute="width" constant="40" id="bTI-Wt-PtP"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
+                                <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="vBz-e9-9n9" firstAttribute="top" secondItem="Sfl-gz-gTI" secondAttribute="bottom" constant="30" id="0vC-dC-4j2"/>
@@ -236,30 +262,36 @@
                                     <constraint firstItem="vBz-e9-9n9" firstAttribute="leading" secondItem="Sfl-gz-gTI" secondAttribute="leading" id="hjG-2g-QfV"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CLC-pf-DH3" userLabel="添加城市">
-                                <rect key="frame" x="550" y="36" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CLC-pf-DH3" userLabel="添加城市">
+                                <rect key="frame" x="550" y="26" width="30" height="30"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="6g7-4O-oLa"/>
                                     <constraint firstAttribute="width" constant="30" id="HAc-rc-ItJ"/>
                                 </constraints>
-                                <state key="normal" title="+">
+                                <state key="normal" image="location">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="chooseCity:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jMI-pc-Nj6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nb7-hq-Hx6" userLabel="定位">
-                                <rect key="frame" x="20" y="35" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nb7-hq-Hx6" userLabel="定位">
+                                <rect key="frame" x="20" y="26" width="30" height="30"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="Ebb-rJ-jaG"/>
                                     <constraint firstAttribute="height" constant="30" id="VsO-Od-AXF"/>
                                 </constraints>
-                                <state key="normal" title="-">
+                                <state key="normal" image="loading">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="refreshData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yx1-Wo-AF7"/>
+                                </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="k47-z4-EAH" secondAttribute="bottom" id="2mb-Z8-GWT"/>
@@ -298,6 +330,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="btRefresh" destination="Nb7-hq-Hx6" id="B5g-Kl-yMQ"/>
                         <outlet property="imgBackgroud" destination="k47-z4-EAH" id="zww-gn-cU4"/>
                         <outlet property="imgFirstDayWeather" destination="Jrf-BN-abn" id="wd4-dB-hIn"/>
                         <outlet property="imgFourthDayWeather" destination="GFJ-rM-Lq0" id="CNE-GP-MbJ"/>
@@ -325,6 +358,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="loading" width="48" height="48"/>
+        <image name="location" width="48" height="48"/>
         <image name="qing" width="256" height="256"/>
         <image name="qingtian" width="1080" height="1920"/>
     </resources>
